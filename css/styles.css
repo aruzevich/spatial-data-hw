@@ -1,0 +1,24 @@
+html, body, .container, #sidebar, #mapContainer {
+  height: 100%;
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+  background-color: royalblue;
+  color: white;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+}
+
+#sidebar {
+  background: blue;
+  width: 320px;
+}
+
+#mapContainer {
+  flex-grow: 1;
+}
