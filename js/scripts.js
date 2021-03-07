@@ -15,7 +15,7 @@ map.on('style.load', function() {
   // add GeoJSON source
   map.addSource('foreverwild', {
     type: 'geojson',
-    data: '/data/forever-wild-preserves.geojson'
+    data: 'data/forever-wild-preserves.geojson'
   });
 
   // add layer to style and display source; id different from source id
@@ -71,6 +71,4 @@ map.on('mousemove', function(e) {
     popup.remove();
     map.getCanvas().style.cursor = 'grab';
   }
-
-  console.log(features)
 })
