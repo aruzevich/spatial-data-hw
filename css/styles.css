@@ -1,13 +1,13 @@
 html, body, .container, #sidebar, #mapContainer {
   height: 100%;
   margin: 0;
+  background-color: #575E00;
+  font-family: sans-serif;
 }
 
 .title {
   text-align: center;
-  background-color: royalblue;
   color: white;
-  overflow: hidden;
 }
 
 .container {
@@ -15,8 +15,9 @@ html, body, .container, #sidebar, #mapContainer {
 }
 
 #sidebar {
-  background: blue;
+  color: white;
   width: 320px;
+  margin: 10px;
 }
 
 #mapContainer {
